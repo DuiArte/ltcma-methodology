@@ -1,0 +1,27 @@
+# --- review-only artifacts: not published ---
+_MANIFEST.md
+
+# --- private edge: never commit ---
+real_numbers/
+*real_numbers*
+*_derivation.xlsx
+*_private.*
+/private/
+
+# --- account / broker artifacts ---
+*GBM*
+*holdings*.xlsx
+*balance*
+*positions*
+
+# --- data scratch ---
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- python / notebooks (if charts are scripted) ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

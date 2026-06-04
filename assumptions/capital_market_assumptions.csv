@@ -1,0 +1,7 @@
+asset_class,expected_return_pct,volatility_pct,notes
+global_equity,6.5,15.0,illustrative placeholder — replace with published value
+dm_govt_bonds,3.0,6.0,illustrative placeholder — replace with published value
+ig_credit,4.2,7.5,illustrative placeholder — replace with published value
+gold,3.5,14.0,illustrative placeholder — replace with published value
+cash,2.5,1.0,illustrative placeholder — replace with published value
+# correlation matrix published separately once reviewed; placeholders only above
