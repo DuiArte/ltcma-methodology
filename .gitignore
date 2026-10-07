@@ -1,26 +1,19 @@
-# --- review-only artifacts: not published ---
+# Local review notes: never published
 _MANIFEST.md
 
-# --- private edge: never commit ---
-real_numbers/
-*real_numbers*
-*_derivation.xlsx
-*_private.*
-/private/
+# Private or working files never belong in this repository
+private/
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+.env
 
-# --- account / broker artifacts ---
-*GBM*
-*holdings*.xlsx
-*balance*
-*positions*
-
-# --- data scratch ---
+# Scratch
 *.tmp
 *.bak
 .DS_Store
 Thumbs.db
-
-# --- python / notebooks (if charts are scripted) ---
 __pycache__/
 *.pyc
 .ipynb_checkpoints/

@@ -1,0 +1,11 @@
+asset,dividend_yield_pct,net_buyback_yield_pct,real_growth_pct,inflation_pct,valuation_metric,valuation_now,valuation_fair,full_reversion_pct_per_year,expected_return_lambda0_pct,expected_return_base_pct,expected_return_lambda1_pct
+US_LargeCap,1.20,1.70,2.50,2.40,CAPE,40.49,26.00,-3.62,7.80,5.99,4.18
+US_SmallCap,1.30,0.50,2.50,2.40,P/E,19.00,18.00,-0.45,6.70,6.48,6.25
+Mexico_Eq,3.20,0.00,1.80,2.40,P/E,13.00,15.00,1.20,7.40,8.00,8.60
+Brazil_Eq,4.50,0.00,2.00,2.40,P/E,11.80,11.50,-0.21,8.90,8.79,8.69
+China_Eq,2.20,0.50,3.00,2.40,CAPE,17.70,15.00,-1.37,8.10,7.42,6.73
+Japan_Eq,2.20,1.00,1.50,2.40,CAPE,29.40,25.00,-1.34,7.10,6.43,5.76
+UK_Eq,3.80,0.50,1.30,2.40,CAPE,20.20,16.00,-1.92,8.00,7.04,6.08
+France_Eq,3.00,0.50,1.50,2.40,CAPE,21.00,20.00,-0.41,7.40,7.20,6.99
+EM_Eq,2.80,0.00,2.80,2.40,CAPE,16.00,16.00,0.00,8.00,8.00,8.00
+DM_exUS_Eq,3.20,0.40,1.50,2.40,CAPE,18.00,19.00,0.45,7.50,7.73,7.95

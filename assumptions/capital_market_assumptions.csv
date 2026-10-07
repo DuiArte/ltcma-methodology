@@ -1,7 +1,25 @@
-asset_class,expected_return_pct,volatility_pct,notes
-global_equity,6.5,15.0,illustrative placeholder — replace with published value
-dm_govt_bonds,3.0,6.0,illustrative placeholder — replace with published value
-ig_credit,4.2,7.5,illustrative placeholder — replace with published value
-gold,3.5,14.0,illustrative placeholder — replace with published value
-cash,2.5,1.0,illustrative placeholder — replace with published value
-# correlation matrix published separately once reviewed; placeholders only above
+asset,asset_class,expected_return_lambda0_pct,expected_return_base_pct,expected_return_lambda1_pct,volatility_15y_pct,volatility_blended_pct,sharpe_base,basis
+US_LargeCap,Equity,7.80,5.99,4.18,13.96,13.33,0.19,building blocks (see equity_building_blocks.csv)
+US_SmallCap,Equity,6.70,6.48,6.25,19.09,19.24,0.17,building blocks (see equity_building_blocks.csv)
+Mexico_Eq,Equity,7.40,8.00,8.60,22.68,21.87,0.21,building blocks (see equity_building_blocks.csv)
+Brazil_Eq,Equity,8.90,8.79,8.69,31.77,30.92,0.17,building blocks (see equity_building_blocks.csv)
+China_Eq,Equity,8.10,7.42,6.73,22.60,22.76,0.18,building blocks (see equity_building_blocks.csv)
+Japan_Eq,Equity,7.10,6.43,5.76,13.79,16.44,0.23,building blocks (see equity_building_blocks.csv)
+UK_Eq,Equity,8.00,7.04,6.08,15.34,16.09,0.24,building blocks (see equity_building_blocks.csv)
+France_Eq,Equity,7.40,7.20,6.99,17.86,17.30,0.22,building blocks (see equity_building_blocks.csv)
+EM_Eq,Equity,8.00,8.00,8.00,17.22,18.68,0.27,building blocks (see equity_building_blocks.csv)
+DM_exUS_Eq,Equity,7.50,7.73,7.95,14.51,15.38,0.31,building blocks (see equity_building_blocks.csv)
+US_Cash_TBill,Fixed Income,3.30,3.30,3.30,0.55,3.39,0.00,"avg(3.7% spot, ~3.0% equilibrium cash rate)"
+US_Treas_Interm,Fixed Income,4.50,4.50,4.50,6.20,7.52,0.19,"YTM ~4.5% (7-10y), slight normalization gain"
+US_Treas_Long,Fixed Income,4.80,4.80,4.80,12.98,15.13,0.12,"YTM ~4.9% (20y+), duration/normalization"
+US_TIPS,Fixed Income,4.50,4.50,4.50,5.00,5.99,0.24,10y real yield 2.1% + US inflation 2.4%
+US_IG_Corp,Fixed Income,5.00,5.00,5.00,7.49,7.93,0.23,YTM ~5.3% - ~0.2% loss - tight-spread drag
+US_HighYield,Fixed Income,5.00,5.00,5.00,7.30,7.70,0.23,YTM ~7.5% - ~2.3% credit loss - tight-OAS drag
+EM_USD_Sov,Fixed Income,6.00,6.00,6.00,9.38,9.70,0.29,EMBI YTM ~7.0% - ~0.9% sovereign loss
+EM_Local_Debt,Fixed Income,4.80,4.80,4.80,10.97,10.87,0.14,local yield ~6.3% - ~1.5% EM FX depreciation
+Global_Agg_exUS,Fixed Income,3.80,3.80,3.80,4.03,5.36,0.12,BNDX USD-hedged: hedged yield ~3.8%
+Mexico_Govt_Local,Fixed Income,6.30,6.30,6.30,15.04,14.65,0.20,Mbono 10y 8.88% - ~2.5% MXN depreciation vs USD
+US_REITs,Real Asset,6.30,6.30,6.30,17.02,16.91,0.18,income ~3.8% + real growth ~2% + inflation
+Global_REITs_exUS,Real Asset,6.40,6.40,6.40,16.19,15.52,0.19,income ~4.2% + growth ~1.5% + inflation
+Commodities,Real Asset,3.50,3.50,3.50,17.01,16.99,0.01,collateral ~3.3% + ~0% real spot + roll
+Gold,Real Asset,3.30,3.30,3.30,16.13,18.79,0.00,inflation 2.4% + ~1% long-run real return
