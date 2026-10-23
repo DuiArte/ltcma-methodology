@@ -1,6 +1,6 @@
 # 02 · Risk model
 
-*As of model built 2026-10-04.*
+*As of model built 2026-10-19.*
 
 ## Volatility: two estimates
 
@@ -15,29 +15,29 @@ the cash expected return of 3.30%) ÷ the 15-year volatility.
 | Asset | 15-year | Blended | Long history blended in |
 |---|---:|---:|:---:|
 | US LargeCap | 13.96% | 13.33% | yes |
-| US SmallCap | 19.09% | 19.24% | no |
-| Mexico Eq | 22.68% | 21.87% | no |
-| Brazil Eq | 31.77% | 30.92% | no |
-| China Eq | 22.60% | 22.76% | no |
-| Japan Eq | 13.79% | 16.44% | yes |
+| US SmallCap | 19.11% | 19.26% | no |
+| Mexico Eq | 22.72% | 21.92% | no |
+| Brazil Eq | 31.90% | 31.08% | no |
+| China Eq | 22.61% | 22.76% | no |
+| Japan Eq | 13.82% | 16.45% | yes |
 | UK Eq | 15.34% | 16.09% | yes |
-| France Eq | 17.86% | 17.30% | yes |
-| EM Eq | 17.22% | 18.68% | yes |
+| France Eq | 17.88% | 17.31% | yes |
+| EM Eq | 17.28% | 18.71% | yes |
 | DM exUS Eq | 14.51% | 15.38% | yes |
 | US Cash TBill | 0.55% | 3.39% | yes |
 | US Treas Interm | 6.20% | 7.52% | yes |
-| US Treas Long | 12.98% | 15.13% | yes |
-| US TIPS | 5.00% | 5.99% | no |
+| US Treas Long | 13.00% | 15.14% | yes |
+| US TIPS | 5.01% | 6.00% | no |
 | US IG Corp | 7.49% | 7.93% | yes |
-| US HighYield | 7.30% | 7.70% | no |
+| US HighYield | 7.30% | 7.71% | no |
 | EM USD Sov | 9.38% | 9.70% | no |
-| EM Local Debt | 10.97% | 10.87% | no |
-| Global Agg exUS | 4.03% | 5.36% | no |
-| Mexico Govt Local | 15.04% | 14.65% | no |
+| EM Local Debt | 10.97% | 10.88% | no |
+| Global Agg exUS | 4.04% | 5.37% | no |
+| Mexico Govt Local | 15.10% | 14.76% | no |
 | US REITs | 17.02% | 16.91% | no |
 | Global REITs exUS | 16.19% | 15.52% | no |
-| Commodities | 17.01% | 16.99% | no |
-| Gold | 16.13% | 18.79% | yes |
+| Commodities | 17.04% | 17.02% | no |
+| Gold | 16.13% | 18.80% | yes |
 
 ## Correlation: two matrices
 
