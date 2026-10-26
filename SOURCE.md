@@ -10,13 +10,13 @@ next run.
 
 | Public output | What it provides | As of | Version |
 |---|---|---|---|
-| [`data/ltcma_returns.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_returns.csv) | building-block expected returns, valuation inputs, published basis notes | model built 2026-10-19 | `blob:8491e893904a` |
-| [`data/ltcma_summary.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_summary.csv) | expected returns by dial setting, 15-year volatility, base-case Sharpe ratio | model built 2026-10-19 | `blob:1ad3d5d4b92e` |
-| [`data/ltcma_vol.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_vol.csv) | 15-year volatility | model built 2026-10-19 | `blob:e830973a0689` |
-| [`data/ltcma_vol_v2.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_vol_v2.csv) | blended volatility | model built 2026-10-19 | `blob:a67bb907f5f0` |
-| [`data/ltcma_corr.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_corr.csv) | sample correlation matrix (15-year) | model built 2026-10-19 | `blob:127b58aba553` |
-| [`data/ltcma_corr_v2.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_corr_v2.csv) | Ledoit-Wolf correlation matrix | model built 2026-10-19 | `blob:549e8a23a545` |
-| [`data/ltcma_meta.json`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_meta.json) | model date, horizon, inflation, CAPE | model built 2026-10-19 | `blob:2bedec88c91c` |
+| [`data/ltcma_returns.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_returns.csv) | building-block expected returns, valuation inputs, published basis notes | model built 2026-10-25 | `blob:8491e893904a` |
+| [`data/ltcma_summary.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_summary.csv) | expected returns by dial setting, 15-year volatility, base-case Sharpe ratio | model built 2026-10-25 | `blob:2fbb79eca3de` |
+| [`data/ltcma_vol.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_vol.csv) | 15-year volatility | model built 2026-10-25 | `blob:bc96974fe7e4` |
+| [`data/ltcma_vol_v2.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_vol_v2.csv) | blended volatility | model built 2026-10-25 | `blob:8110a4d3cd69` |
+| [`data/ltcma_corr.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_corr.csv) | sample correlation matrix (15-year) | model built 2026-10-25 | `blob:886b3b51cf01` |
+| [`data/ltcma_corr_v2.csv`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_corr_v2.csv) | Ledoit-Wolf correlation matrix | model built 2026-10-25 | `blob:d1070f7af186` |
+| [`data/ltcma_meta.json`](https://github.com/DuiArte/ltcma/blob/main/data/ltcma_meta.json) | model date, horizon, inflation, CAPE | model built 2026-10-25 | `blob:61ab65f92dfc` |
 
 *Version* is the file's git blob id in the site repository, so the exact input can be
 checked with `git cat-file -p <id>` in a clone of https://github.com/DuiArte/ltcma.

@@ -1,6 +1,6 @@
 # 00 · Overview
 
-*As of model built 2026-10-19.*
+*As of model built 2026-10-25.*
 
 The model gives each of 24 assets (10 equity markets, 10 fixed-income
 sectors, 4 real assets) three numbers:

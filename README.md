@@ -4,11 +4,11 @@
 
 **The long-term capital-market assumptions published on the LTCMA research site: every number, and how each one is built.**
 
-![status](https://img.shields.io/badge/status-research-blue) ![license](https://img.shields.io/badge/license-CC--BY--NC--4.0-green) ![model built](https://img.shields.io/badge/model%20built-2026--10--19-lightgrey)
+![status](https://img.shields.io/badge/status-research-blue) ![license](https://img.shields.io/badge/license-CC--BY--NC--4.0-green) ![model built](https://img.shields.io/badge/model%20built-2026--10--25-lightgrey)
 
 ---
 
-**As of model built 2026-10-19.** Expected returns are annual, nominal and in US-dollar terms over
+**As of model built 2026-10-25.** Expected returns are annual, nominal and in US-dollar terms over
 a 12-year horizon. Every figure in this repository is taken from the model outputs that the
 [LTCMA research site](https://duiarte.github.io/ltcma/) already publishes; [`SOURCE.md`](SOURCE.md) lists each output
 and its version.
@@ -17,30 +17,30 @@ and its version.
 
 | Asset | Class | Expected return (base) | Volatility (15-year) | Sharpe (base)¹ |
 |---|---|---:|---:|---:|
-| US LargeCap | Equity | 5.99% | 13.96% | 0.19 |
-| US SmallCap | Equity | 6.48% | 19.11% | 0.17 |
+| US LargeCap | Equity | 5.99% | 13.97% | 0.19 |
+| US SmallCap | Equity | 6.48% | 19.10% | 0.17 |
 | Mexico Eq | Equity | 8.00% | 22.72% | 0.21 |
-| Brazil Eq | Equity | 8.79% | 31.90% | 0.17 |
-| China Eq | Equity | 7.42% | 22.61% | 0.18 |
-| Japan Eq | Equity | 6.43% | 13.82% | 0.23 |
+| Brazil Eq | Equity | 8.79% | 31.94% | 0.17 |
+| China Eq | Equity | 7.42% | 22.66% | 0.18 |
+| Japan Eq | Equity | 6.43% | 13.83% | 0.23 |
 | UK Eq | Equity | 7.04% | 15.34% | 0.24 |
 | France Eq | Equity | 7.20% | 17.88% | 0.22 |
-| EM Eq | Equity | 8.00% | 17.28% | 0.27 |
+| EM Eq | Equity | 8.00% | 17.34% | 0.27 |
 | DM exUS Eq | Equity | 7.73% | 14.51% | 0.30 |
 | US Cash TBill | Fixed Income | 3.30% | 0.55% | n/a |
-| US Treas Interm | Fixed Income | 4.50% | 6.20% | 0.19 |
-| US Treas Long | Fixed Income | 4.80% | 13.00% | 0.12 |
-| US TIPS | Fixed Income | 4.50% | 5.01% | 0.24 |
-| US IG Corp | Fixed Income | 5.00% | 7.49% | 0.23 |
+| US Treas Interm | Fixed Income | 4.50% | 6.22% | 0.19 |
+| US Treas Long | Fixed Income | 4.80% | 13.04% | 0.12 |
+| US TIPS | Fixed Income | 4.50% | 5.03% | 0.24 |
+| US IG Corp | Fixed Income | 5.00% | 7.50% | 0.23 |
 | US HighYield | Fixed Income | 5.00% | 7.30% | 0.23 |
 | EM USD Sov | Fixed Income | 6.00% | 9.38% | 0.29 |
 | EM Local Debt | Fixed Income | 4.80% | 10.97% | 0.14 |
 | Global Agg exUS | Fixed Income | 3.80% | 4.04% | 0.12 |
 | Mexico Govt Local | Fixed Income | 6.30% | 15.10% | 0.20 |
-| US REITs | Real Asset | 6.30% | 17.02% | 0.18 |
+| US REITs | Real Asset | 6.30% | 17.03% | 0.18 |
 | Global REITs exUS | Real Asset | 6.40% | 16.19% | 0.19 |
-| Commodities | Real Asset | 3.50% | 17.04% | 0.01 |
-| Gold | Real Asset | 3.30% | 16.13% | 0.00 |
+| Commodities | Real Asset | 3.50% | 17.06% | 0.01 |
+| Gold | Real Asset | 3.30% | 16.17% | 0.00 |
 
 ¹ (base-case expected return − the cash expected return of 3.30%) ÷ 15-year volatility.
 
