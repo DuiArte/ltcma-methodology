@@ -1,6 +1,6 @@
 # 01 · Expected returns
 
-*As of model built 2026-10-25. Horizon 12 years; annual, nominal, US-dollar terms; US inflation 2.4%.*
+*As of model built 2026-11-01. Horizon 12 years; annual, nominal, US-dollar terms; US inflation 2.4%.*
 
 ## Equities: building blocks
 
