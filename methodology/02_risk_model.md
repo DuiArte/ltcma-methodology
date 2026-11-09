@@ -1,6 +1,6 @@
 # 02 · Risk model
 
-*As of model built 2026-11-01.*
+*As of model built 2026-11-08.*
 
 ## Volatility: two estimates
 
@@ -14,30 +14,30 @@ the cash expected return of 3.30%) ÷ the 15-year volatility.
 
 | Asset | 15-year | Blended | Long history blended in |
 |---|---:|---:|:---:|
-| US LargeCap | 13.97% | 13.34% | yes |
-| US SmallCap | 19.10% | 19.24% | no |
-| Mexico Eq | 22.71% | 21.90% | no |
-| Brazil Eq | 31.96% | 31.13% | no |
-| China Eq | 22.66% | 22.82% | no |
-| Japan Eq | 13.86% | 16.46% | yes |
-| UK Eq | 15.35% | 16.10% | yes |
-| France Eq | 17.86% | 17.30% | yes |
-| EM Eq | 17.39% | 18.75% | yes |
-| DM exUS Eq | 14.51% | 15.38% | yes |
-| US Cash TBill | 0.56% | 3.40% | yes |
-| US Treas Interm | 6.24% | 7.54% | yes |
-| US Treas Long | 13.06% | 15.17% | yes |
-| US TIPS | 5.04% | 6.02% | no |
-| US IG Corp | 7.51% | 7.94% | yes |
-| US HighYield | 7.30% | 7.71% | no |
-| EM USD Sov | 9.39% | 9.71% | no |
-| EM Local Debt | 10.97% | 10.88% | no |
-| Global Agg exUS | 4.05% | 5.37% | no |
-| Mexico Govt Local | 15.10% | 14.76% | no |
-| US REITs | 17.05% | 16.95% | no |
-| Global REITs exUS | 16.19% | 15.52% | no |
-| Commodities | 17.03% | 17.02% | no |
-| Gold | 16.24% | 18.85% | yes |
+| US LargeCap | 13.81% | 13.33% | yes |
+| US SmallCap | 18.80% | 19.20% | no |
+| Mexico Eq | 22.51% | 21.84% | no |
+| Brazil Eq | 31.62% | 31.04% | no |
+| China Eq | 22.39% | 22.79% | no |
+| Japan Eq | 13.94% | 16.47% | yes |
+| UK Eq | 15.06% | 16.08% | yes |
+| France Eq | 17.62% | 17.28% | yes |
+| EM Eq | 17.00% | 18.74% | yes |
+| DM exUS Eq | 14.35% | 15.37% | yes |
+| US Cash TBill | 0.56% | 3.39% | yes |
+| US Treas Interm | 6.23% | 7.53% | yes |
+| US Treas Long | 13.02% | 15.15% | yes |
+| US TIPS | 5.02% | 6.01% | no |
+| US IG Corp | 7.49% | 7.93% | yes |
+| US HighYield | 7.02% | 7.69% | no |
+| EM USD Sov | 9.31% | 9.68% | no |
+| EM Local Debt | 10.87% | 10.85% | no |
+| Global Agg exUS | 4.03% | 5.36% | no |
+| Mexico Govt Local | 15.12% | 14.71% | no |
+| US REITs | 16.74% | 16.90% | no |
+| Global REITs exUS | 15.98% | 15.48% | no |
+| Commodities | 17.02% | 17.06% | no |
+| Gold | 16.22% | 18.84% | yes |
 
 ## Correlation: two matrices
 
